@@ -1,18 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-function App(){ 
-    const str1 = "CLİCK "
-    const str2 = "ME"
-    return (
+import Card from "./components/Card";
+const App = () => {
+  return (
     <div>
-        <button tabIndex="3" className="jsxCLASS" type="button" style={{padding:"10px", color:"white", backgroundColor:"blue", border:"2px solid yellow"}}>{str1.concat(str2)}</button>
+      <div className="card-group">
+        <Card cardTitle="Trabzonspor" />
+
+        <Card cardTitle="Bursaspor" />
+
+        <Card cardTitle="Besiktas"/>
+      </div>
     </div>
-);
-}
+  );
+};
 
-
-ReactDOM.render(
-    <App/>,
-    document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
