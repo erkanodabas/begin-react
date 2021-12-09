@@ -5,11 +5,11 @@ const App = () => {
   return (
     <div>
       <div className="card-group">
-        <Card cardTitle="Trabzonspor" />
+        <Card cardTitle="Card Title I" cardText="LOrem Ipsum text I" updatedTime="Last Updated 1 min ago"/>
 
-        <Card cardTitle="Bursaspor" />
+        <Card cardTitle="Card Title II" cardText="LOrem Ipsum text II" updatedTime="Last Updated 2 min ago"/>
 
-        <Card cardTitle="Besiktas"/>
+        <Card cardTitle="Card Title I" cardText="LOrem Ipsum text I" updatedTime="Last Updated 1 min ago"/>
       </div>
     </div>
   );
